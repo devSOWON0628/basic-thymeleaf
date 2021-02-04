@@ -10,8 +10,8 @@ public class mainController {
 			
 	@GetMapping("/")
 	public ModelAndView main(Model m) {
-		ModelAndView mv =new ModelAndView("test");
-		//mv.addObject("data","sowon");
+		ModelAndView mv = new ModelAndView("test");
+		mv.addObject("data","sowon");
 		return mv;
 	}
 	
